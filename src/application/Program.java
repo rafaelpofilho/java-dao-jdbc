@@ -32,7 +32,7 @@ public class Program {
 		// Mesma função do for acima, porém, com 1 linha.
 		list.forEach(System.out::println);
 		
-		System.out.println("=== TEST 3 - findByDepartment ===");
+		System.out.println("=== TEST 3 - findAll ===");
 		list = sellerDao.findAll();
 		
 		for (Seller x : list) {
